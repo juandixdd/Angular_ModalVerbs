@@ -30,7 +30,7 @@ export class Question3Component implements OnInit {
         showConfirmButton: false,
         timer: 1000
       })
-      this._router.navigate(['/q4'])
+      this._router.navigate(['/final'])
       
       let correctAnswers = Number(localStorage.getItem("correctAnswers"));
       let newPoints = correctAnswers+1;
@@ -47,7 +47,7 @@ export class Question3Component implements OnInit {
         showConfirmButton: false,
         timer: 1000
       })
-      this._router.navigate(['/q4'])
+      this._router.navigate(['/final'])
     }
   }
 
