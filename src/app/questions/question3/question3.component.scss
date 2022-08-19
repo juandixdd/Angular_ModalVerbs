@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #f64f68;
+    --secundary-color: #f64f6871;
+  }
+
+.question-card{
+    background-color: var(--primary-color);  
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.question-card:hover {
+    background-color: var(--secundary-color);
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.question-card a{
+    text-decoration: none;
+}
