@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';
 })
 export class Question10Component implements OnInit {
 
-  correctAnswer = "Can't"
+  correctAnswer = "Might"
 
   constructor(
     private _router: Router,
