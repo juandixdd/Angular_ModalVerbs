@@ -1,0 +1,29 @@
+
+<div class="m-0 vh-100 row justify-content-around align-items-center">
+    <div class="col-auto text-center">
+      <!--? Pregunta -->
+      <h1 class="mb-5">
+        Who's that at the door? It ___ be Susie, she'll still be at work now.
+      </h1>
+  
+      <!-- ?Respuestas -->
+      <div class="row justify-content-center">
+        <div class="col-auto question-card">
+          <a><h3 class="p-3" (click)="validateRes($event)">Must</h3></a>
+        </div>
+  
+        <div class="col-auto question-card">
+          <a><h3 class="p-3" (click)="validateRes($event)">Can't</h3></a>
+        </div>
+  
+        <div class="col-auto question-card">
+          <a><h3 class="p-3" (click)="validateRes($event)">Might</h3></a>
+        </div>
+  
+        <div class="col-auto question-card">
+          <a><h3 class="p-3" (click)="validateRes($event)">May</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

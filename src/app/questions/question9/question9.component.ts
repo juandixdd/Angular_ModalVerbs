@@ -3,12 +3,13 @@ import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-question3',
-  templateUrl: './question3.component.html',
-  styleUrls: ['./question3.component.scss']
+  selector: 'app-question9',
+  templateUrl: './question9.component.html',
+  styleUrls: ['./question9.component.scss']
 })
-export class Question3Component implements OnInit {
+export class Question9Component implements OnInit {
 
+  
 
   correctAnswer = "Must"
 
@@ -30,10 +31,10 @@ export class Question3Component implements OnInit {
         showConfirmButton: false,
         timer: 1000
       })
-      this._router.navigate(['/q4'])
-
+      this._router.navigate(['/q10'])
+      
       let correctAnswers = Number(localStorage.getItem("correctAnswers"));
-      let newPoints = correctAnswers + 1;
+      let newPoints = correctAnswers+1;
       localStorage.setItem("correctAnswers", newPoints.toString())
 
 
@@ -47,7 +48,7 @@ export class Question3Component implements OnInit {
         showConfirmButton: false,
         timer: 1000
       })
-      this._router.navigate(['/q4'])
+      this._router.navigate(['/q10'])
     }
   }
 
